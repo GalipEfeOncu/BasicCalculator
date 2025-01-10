@@ -1,127 +1,47 @@
-# Basic Calculator
+# Basic Calculator / Temel Hesap Makinesi
 
-This is a simple calculator application built with C# and Windows Forms.
+This is a basic calculator application developed using C# and Windows Forms. It supports standard arithmetic operations, decimal numbers, and additional functions like square root, square, reciprocal, and sign toggling. The application also dynamically adjusts its layout and font sizes based on the window size and supports keyboard input.
 
-## Features
+Bu, C# ve Windows Forms kullanılarak geliştirilmiş temel bir hesap makinesi uygulamasıdır. Standart aritmetik işlemleri, ondalık sayıları ve karekök, kare, karşılık ve işaret değiştirme gibi ek işlevleri destekler. Uygulama ayrıca pencere boyutuna göre düzenini ve yazı tipi boyutlarını dinamik olarak ayarlar ve klavye girişini destekler.
 
-*   Performs basic arithmetic operations (addition, subtraction, multiplication, division).
-*   Handles decimal numbers.
-*   Offers functionalities like square root, square, reciprocal, and sign toggle.
-*   Includes basic error handling (division by zero, invalid input for square root).
-*   Dynamically adjusts font sizes and layout based on window size.
-*   Supports keyboard input for numbers and basic operations.
+## Features / Özellikler
 
-## Getting Started
+*   **Basic Arithmetic Operations / Temel Aritmetik İşlemler:** Addition, subtraction, multiplication, and division (+, -, x, /). / Toplama, çıkarma, çarpma ve bölme (+, -, x, /).
+*   **Decimal Number Support / Ondalık Sayı Desteği:** Supports calculations with decimal numbers. / Ondalık sayılarla hesaplamaları destekler.
+*   **Additional Functions / Ek İşlevler:** Square root (√), square (x²), reciprocal (1/x), and sign toggle (+/-). / Karekök (√), kare (x²), karşılık (1/x) ve işaret değiştirme (+/-).
+*   **Error Handling / Hata Yönetimi:** Handles division by zero and invalid input for square root (negative numbers). / Sıfıra bölme ve karekök için geçersiz giriş (negatif sayılar) durumlarını ele alır.
+*   **Dynamic Layout and Font Sizing / Dinamik Düzen ve Yazı Tipi Boyutlandırma:** Automatically adjusts layout and font sizes based on the form size. / Form boyutuna göre düzeni ve yazı tipi boyutlarını otomatik olarak ayarlar.
+*   **Keyboard Input Support / Klavye Giriş Desteği:** Supports keyboard input for numbers, operators, and Enter/Backspace/Delete keys. / Sayılar, operatörler ve Enter/Backspace/Delete tuşları için klavye girişini destekler.
+*   **Input Validation/Giriş Doğrulaması:** Ekran boyutunu aşan girişleri engeller ve taşma durumlarını kontrol eder.
 
-1.  Clone or download this repository.
-2.  Open the solution file (`BasicCalculator.sln`) in Visual Studio.
-3.  Build and run the application (F5).
+## Requirements / Gereksinimler
 
-## How to Use
+*   .NET Framework (Recommended version: .NET Framework 4.7.2 or higher) / .NET Framework (Önerilen sürüm: .NET Framework 4.7.2 veya üzeri)
+*   Visual Studio (or any compatible C# IDE) / Visual Studio (veya uyumlu herhangi bir C# IDE'si)
 
-*   Click on the number buttons (0-9) to enter numbers.
-*   Use the arithmetic buttons (+, -, \*, /) to perform calculations.
-*   The result is displayed in the top label (`lblText`).
-*   The calculation history is shown in the bottom label (`lblText1`).
-*   Use the following buttons for additional functionalities:
-    *   `C` (Clear): Clears both the display and calculation history.
-    *   `CE` (Clear Entry): Clears only the display.
-    *   `Backspace`: Deletes the last entered digit.
-    *   `+/-`: Toggles the sign of the displayed number.
-    *   `.` (Decimal): Adds a decimal point.
-    *   `sqrt`: Calculates the square root.
-    *   `x^2`: Squares the number.
-    *   `1/x`: Calculates the reciprocal.
-*   Use Enter key to perform equal operation.
-*   Use numpad or number keys for numbers.
-*   Use Backspace for backspace.
-*   Use Delete for clear.
-*   Use '-' for subtraction.
-*   Use '?' for division.
-*   Use Shift + 4 for addition.
-*   Use Shift + 6 for multiplication.
+## Running Instructions / Çalıştırma Adımları
 
-## Development Environment
+1.  **Clone the Repository (if available):** / **Depoyu Klonlayın (varsa):**
+    ```bash
+    git clone [repository_url] // Örneğin: [geçersiz URL kaldırıldı]
+    ```
 
-*   C#
-*   Windows Forms
-*   .NET Framework
+2.  **Open the Solution:** / **Çözümü Açın:**
+    Open the `BasicCalculator.sln` file in Visual Studio. / `BasicCalculator.sln` dosyasını Visual Studio'da açın.
 
-## License
+3.  **Build and Run:** / **Derleyin ve Çalıştırın:**
+    Build the project (Build -> Build Solution) and run it (Debug -> Start Debugging or press F5). / Projeyi derleyin (Oluştur -> Çözümü Oluştur) ve çalıştırın (Hata Ayıkla -> Hata Ayıklamayı Başlat veya F5'e basın).
 
-This project is currently unlicensed. You can consider adding an open-source license like MIT or Apache 2.0.
+## Development Notes / Geliştirme Notları
 
-## Further Development
+*   The application uses `TableLayoutPanel` controls for dynamic layout adjustment. / Uygulama, dinamik düzen ayarlaması için `TableLayoutPanel` kontrollerini kullanır.
+*   Font sizes are calculated based on the form height for better responsiveness. / Yazı tipi boyutları, daha iyi yanıt verebilirlik için form yüksekliğine göre hesaplanır.
+*   You can extend the calculator with more advanced functions (e.g., trigonometric functions, memory functions) or improve the user interface. / Hesap makinesini daha gelişmiş işlevlerle (örneğin, trigonometrik fonksiyonlar, bellek işlevleri) genişletebilir veya kullanıcı arayüzünü iyileştirebilirsiniz.
+*   Kod, klavye girişlerini ve farklı hata senaryolarını ele alacak şekilde düzenlenmiştir.
 
-This is a basic calculator. You can extend it with features like:
+## Contact / İletişim
 
-*   Memory functions (store and recall values).
-*   Percentage calculations.
-*   Scientific operations (trigonometry, logarithms).
-*   User preferences (customizable colors, themes).
-*   Input validation for overflow situations.
+For questions, suggestions, or bug reports, please contact me through: / Sorular, öneriler veya hata bildirimleri için lütfen benimle iletişime geçin:
 
----
-
-## Temel Hesap Makinesi
-
-Bu, C# ve Windows Forms ile oluşturulmuş basit bir hesap makinesi uygulamasıdır.
-
-## Özellikler
-
-*   Temel aritmetik işlemleri gerçekleştirir (toplama, çıkarma, çarpma, bölme).
-*   Ondalık sayıları destekler.
-*   Karekök, kare, karşılık ve işaret değiştirme gibi işlevler sunar.
-*   Temel hata yönetimi içerir (sıfıra bölme, karekök için geçersiz giriş).
-*   Pencere boyutuna göre yazı tipi boyutlarını ve düzeni dinamik olarak ayarlar.
-*   Sayılar ve temel işlemler için klavye girişini destekler.
-
-## Başlangıç
-
-1.  Bu depoyu klonlayın veya indirin.
-2.  Çözüm dosyasını (`BasicCalculator.sln`) Visual Studio'da açın.
-3.  Uygulamayı derleyin ve çalıştırın (F5).
-
-## Nasıl Kullanılır
-
-*   Sayı girmek için sayı düğmelerine (0-9) tıklayın.
-*   Hesaplamalar yapmak için aritmetik düğmelerini (+, -, \*, /) kullanın.
-*   Sonuç, üst etikette (`lblText`) görüntülenir.
-*   Hesaplama geçmişi, alt etikette (`lblText1`) gösterilir.
-*   Ek işlevler için aşağıdaki düğmeleri kullanın:
-    *   `C` (Temizle): Hem ekranı hem de hesaplama geçmişini temizler.
-    *   `CE` (Girişi Temizle): Yalnızca ekranı temizler.
-    *   `Backspace`: Girilen son rakamı siler.
-    *   `+/-`: Görüntülenen sayının işaretini değiştirir.
-    *   `.` (Ondalık): Ondalık nokta ekler.
-    *   `sqrt`: Karekökü hesaplar.
-    *   `x^2`: Sayının karesini alır.
-    *   `1/x`: Karşılığı hesaplar.
-*   Eşittir işlemi için Enter tuşunu kullanın.
-*   Sayılar için sayısal tuş takımını veya sayı tuşlarını kullanın.
-*   Geri silme için Backspace tuşunu kullanın.
-*   Temizleme için Delete tuşunu kullanın.
-*   Çıkarma için '-' tuşunu kullanın.
-*   Bölme için '?' tuşunu kullanın.
-*   Toplama için Shift + 4 tuşlarını kullanın.
-*   Çarpma için Shift + 6 tuşlarını kullanın.
-
-## Geliştirme Ortamı
-
-*   C#
-*   Windows Forms
-*   .NET Framework
-
-## Lisans
-
-Bu proje şu anda lisanssızdır. MIT veya Apache 2.0 gibi bir açık kaynak lisansı eklemeyi düşünebilirsiniz.
-
-## İleri Geliştirme
-
-Bu temel bir hesap makinesidir. Aşağıdaki gibi özelliklerle genişletebilirsiniz:
-
-*   Bellek işlevleri (değerleri saklama ve geri çağırma).
-*   Yüzde hesaplamaları.
-*   Bilimsel işlemler (trigonometri, logaritmalar).
-*   Kullanıcı tercihleri (özelleştirilebilir renkler, temalar).
-*   Taşma durumları için giriş doğrulaması.
+*   GitHub: [Your GitHub Username] / [GitHub Kullanıcı Adınız]
+*   Email: [Your Email Address] / [E-posta Adresiniz]
