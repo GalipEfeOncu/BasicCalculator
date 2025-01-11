@@ -51,6 +51,10 @@ For questions, suggestions, or bug reports, please contact me through:
 ## Türkçe
 
 Bu, C# ve Windows Forms kullanılarak geliştirilmiş temel bir hesap makinesi uygulamasıdır. Standart aritmetik işlemleri, ondalık sayıları ve karekök, kare, karşılık ve işaret değiştirme gibi ek işlevleri destekler. Uygulama ayrıca pencere boyutuna göre düzenini ve yazı tipi boyutlarını dinamik olarak ayarlar ve gelişmiş kullanılabilirlik için klavye girişini destekler.
+![image](https://github.com/user-attachments/assets/0779bbc3-47ec-46c6-bfe9-a6b4c12d1e3d)
+
+![image](https://github.com/user-attachments/assets/3b9dd1bb-61a9-4fe9-93ef-8a94b5582101)
+
 
 ### Özellikler
 
