@@ -43,8 +43,8 @@ This is a basic calculator application developed using C# and Windows Forms. It 
 
 For questions, suggestions, or bug reports, please contact me through:
 
-*   GitHub: [Your GitHub Username]
-*   Email: [Your Email Address]
+*   Discord: Knover 
+*   Email: galipefe75@gmail.com
 
 ---
 
@@ -91,5 +91,5 @@ Bu, C# ve Windows Forms kullanılarak geliştirilmiş temel bir hesap makinesi u
 
 Sorular, öneriler veya hata bildirimleri için lütfen benimle iletişime geçin:
 
-*   GitHub: [GitHub Kullanıcı Adınız]
-*   E-posta: [E-posta Adresiniz]
+*   Discord: Knover 
+*   Email: galipefe75@gmail.com
