@@ -23,7 +23,7 @@ This is a basic calculator application developed using C# and Windows Forms. It 
 
 1.  Clone the Repository (if available):
     ```bash
-    git clone [repository_url] // Example: [geçersiz URL kaldırıldı]
+    git clone https://github.com/GalipEfeOncu/BasicCalculator.git
     ```
 
 2.  Open the Solution:
@@ -71,7 +71,7 @@ Bu, C# ve Windows Forms kullanılarak geliştirilmiş temel bir hesap makinesi u
 
 1.  Depoyu Klonlayın (varsa):
     ```bash
-    git clone [repository_url] // Örneğin: [geçersiz URL kaldırıldı]
+    git clone https://github.com/GalipEfeOncu/BasicCalculator.git
     ```
 
 2.  Çözümü Açın:
