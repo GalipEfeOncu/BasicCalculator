@@ -24,16 +24,13 @@ This is a basic calculator application developed using C# and Windows Forms. It 
 
 ### 🚦 Running Instructions
 
-1.  Clone the Repository:
-    ```bash
-    git clone https://github.com/GalipEfeOncu/BasicCalculator.git
-    ```
-
-2.  Open the Solution:
-    Open the `BasicCalculator.sln` file in Visual Studio.
-
-3.  Build and Run:
-    Build the project (Build -> Build Solution) and run it (Debug -> Start Debugging or press F5).
+1. **Open Visual Studio.**
+2. Go to the **Start Page** or **File** menu and click on **Clone a repository**.
+3. In the **Clone a repository** window, paste the following URL:
+   ```bash
+   https://github.com/GalipEfeOncu/BasicCalculator.git
+4. Click on the **Clone** button to clone the repository to your local machine.
+5. After opening the project, press **F5** to run the project, or click on **Debug > Start Debugging**.
 
 ### 🔄 Development Notes
 
@@ -75,16 +72,13 @@ Bu, C# ve Windows Forms kullanılarak geliştirilmiş temel bir hesap makinesi u
 
 ### 🚦 Çalıştırma Adımları
 
-1.  Depoyu Klonlayın:
-    ```bash
-    git clone https://github.com/GalipEfeOncu/BasicCalculator.git
-    ```
-
-2.  Çözümü Açın:
-    `BasicCalculator.sln` dosyasını Visual Studio'da açın.
-
-3.  Derleyin ve Çalıştırın:
-    Projeyi derleyin (Oluştur -> Çözümü Oluştur) ve çalıştırın (Hata Ayıkla -> Hata Ayıklamayı Başlat veya F5'e basın).
+1. **Visual Studio'yu açın.**
+2. **Start Page** (Başlangıç Sayfası) veya **File** menüsüne gidin ve **Clone a repository** seçeneğine tıklayın.
+3. **Clone a repository** penceresinde, aşağıdaki bağlantıyı (URL) yapıştırın:
+   ```bash
+   https://github.com/GalipEfeOncu/BasicCalculator.git
+4. **Clone** butonuna tıklayın ve projeyi bilgisayarınıza klonlayın.
+5. Projeyi açtıktan sonra, **F5** tuşuna basarak projeyi çalıştırın veya **Debug > Start Debugging** seçeneğini tıklayın.
 
 ### 🔄 Geliştirme Notları
 
